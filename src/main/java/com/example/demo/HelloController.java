@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @GetMapping("/")
     public String index() {
-        return "<h1>Merhaba Muzolas! CI/CD Calisiyor.</h1>";
+        return "<h1>Merhaba Beishang! CI/CD Calisiyor.</h1>";
     }
 }
